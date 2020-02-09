@@ -1,7 +1,7 @@
-# CDF Resiliency Engineering SIG
+# CDF Resilience Engineering SIG
 
 ## Overview
-The Resiliency Engineering SIG is a place for discussion of practical implementations of resilient software development systems, 
+The Resilience Engineering SIG is a place for discussion of practical implementations of resilient software development systems, 
 with the aim of building a curated library of industry examples, as well as whitepapers proposing tools, features, technical standards, 
 and guidelines that make it easier for software development teams to create highly robust software development pipelines and 
 engineering cultures.
@@ -9,8 +9,8 @@ engineering cultures.
 Topics of interest include the following:
 
 * Disaster Recovery - creating adaptive, self-healing production systems
-* Architecture - principles of design that are conducive of resiliency
-* Testing - Chaos engineering practices and other means to ensure resiliency as an ongoing practice
+* Architecture - principles of design that are conducive of resilience
+* Testing - Chaos engineering practices and other means to ensure resilience as an ongoing practice
 * 
 
 ## Members
@@ -21,7 +21,7 @@ Topics of interest include the following:
 *  - 
 
 ## Communication
-Resiliency SIG communication happens via a public mailing list: https://lists.cd.foundation/g/sig-resiliency
+Resilience SIG communication happens via a public mailing list: https://lists.cd.foundation/g/sig-resilience
 
 ## Meetings
 The Security SIG meets <TBD>
