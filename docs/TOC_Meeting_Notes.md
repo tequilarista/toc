@@ -1,15 +1,1981 @@
-CDF TOC Meeting Agenda
-----------------------
+ CDF TOC Meeting Agenda
+-----------------------
 
 Logistics:
 
--   Meeting: [*https://zoom.us/my/cdf.toc*](https://zoom.us/my/cdf.toc)
+-   Meeting:
+    > [*https://zoom.us/j/262239698?pwd=NWhQWjg2UUdKT0ZxYW1CSElwbDVodz09*](https://zoom.us/j/262239698?pwd=NWhQWjg2UUdKT0ZxYW1CSElwbDVodz09)
+
+    -   Zoom Meeting ID: 262 239 698
+
+    -   Zoom Passcode: 450854
 
 -   Youtube Channel:
     > [*https://www.youtube.com/channel/UC7HcWhSetq6nTlpMXPHKz\_A*](https://www.youtube.com/channel/UC7HcWhSetq6nTlpMXPHKz_A)
 
 -   Twitter:
     > [*https://twitter.com/CDeliveryFdn*](https://twitter.com/CDeliveryFdn)
+
+Future topics:
+
+-   \[tara\] Need a CLA or similar for ambassadors/contributors to
+    > clarify contributions from individuals vs. corps
+
+-   \[tara\] TOC should define teams/policies around github org access
+
+November 10th, 2020
+-------------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Isaac Mosquera (Armory/Spinnaker) - presenté!
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology/Interop
+        > SIG chair)
+
+    -   Kara de la Marck (CloudBees/Interop SIG Chair)
+
+    -   Tracy Miranda (CDF)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+    -   Tracy Ragan (DeployHub/Ortelius)
+
+    -   Steve Taylor (DeployHub)
+
+    -   Sagar Utekar
+
+    -   Steve Zheng
+
+    -   Roy Nielsen - Present
+
+    -   Siddharth Pareek (Natwest Group / Ortelius)
+
+    -   Alok Tanna (Ortelius)
+
+    -   Terry Cox (SIG-MLOps co-chair)
+
+    -   Marky Jackson (Ortelius)
+
+    -   Parijat Kalita (Ortelius)
+
+    -   Sacha Wharton (Ortelius)
+
+    -   Mauricio Salatino(Camunda/LearnK8s)
+
+    -   Gale McCommons (Linux Foundation)
+
+    -   Vivek Pandey (Shipa)
+
+    -   Nael Fridhi (Ortelius)
+
+-   **Agenda and Notes:**
+
+    -   Feedback/Vote on Ortelius
+        > [*proposal*](https://github.com/cdfoundation/toc/pulls)
+
+    -   Best Practices SIG! (Mauricio Salatino)
+
+        -   Pull Request:
+            > [*https://github.com/cdfoundation/toc/pull/87*](https://github.com/cdfoundation/toc/pull/87)
+
+    -   Recurring [*Project
+        > Updates*](https://docs.google.com/document/d/1-vivTYXNCGio6KxvzKOJCOWBZK9W-PkShbEthFG2EaA/edit#)
+        > for
+        > [*newsletter*](https://github.com/cdfoundation/newsletter)?
+
+        -   Monthly
+
+    -   Pending project requests (budget, infra, etc.)
+
+        -   Need to investigate Dockerhub changes
+
+            -   Jenkins was accepted!
+
+            -   Screwdriver applied and got accepted!
+
+            -   Jenkins X 2 is paid for by cloudbees, Jx3 has applied
+                > for dockerhub just in case
+
+    -   Whitepapers (Tracy Miranda)
+
+        -   [*CI/CD Interoperability
+            > Whitepaper*](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit),
+
+            -   looking for reviewers, end user case studies
+
+            -   target for publication mid-December
+
+            -   cutoff for changes end of November
+
+        -   [*CI / CD
+            > Definitions*](https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#heading=h.yl0j54hk33l)
+
+            -   open for comment
+
+        -   [*Continuous Delivery
+            > Whitepaper*](https://docs.google.com/document/d/1aZT__F57g1BMPzpsV6RAC86k_FfetkAWMhdVT22PZrM/edit?ts=5f875eda#heading=h.rrar1dgps27e)
+
+            -   looking for case studies, input
+
+    -   Landscape updates
+
+October 27th, 2020
+------------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Isaac Mosquera (Armory/Spinnaker) - present!
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology/Interop
+        > SIG chair)
+
+    -   Kara de la Marck (CloudBees/Interop SIG Chair)
+
+    -   Tracy Miranda (CDF)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+    -   Tracy Ragan (DeployHub/Ortelius)
+
+    -   Steve Taylor (DeployHub)
+
+    -   Sagar Utekar
+
+    -   Steve Zheng
+
+    -   Roy Nielsen - Present
+
+    -   Siddharth Pareek (Natwest Group / Ortelius)
+
+    -   Alok Tanna (Ortelius)
+
+    -   Terry Cox (SIG-MLOps co-chair)
+
+    -   Marky Jackson (Ortelius)
+
+    -   Parijat Kalita (Ortelius)
+
+    -   Sacha Wharton (Ortelius)
+
+-   **Agenda and Notes:**
+
+    -   Ortelius [*proposal*](https://github.com/cdfoundation/toc/pulls)
+
+    -   SIG-MLOps Roadmap
+
+    -   Landscape updates
+
+    -   [*Project
+        > Updates*](https://docs.google.com/document/d/1-vivTYXNCGio6KxvzKOJCOWBZK9W-PkShbEthFG2EaA/edit#)
+        > for [*newsletter*](https://github.com/cdfoundation/newsletter)
+
+        -   Jenkins
+
+        -   JenkinsX
+
+        -   Tekton
+
+        -   Spinnaker
+
+        -   Screwdriver
+
+    -   Pending project requests (budget, infra, etc.)
+
+        -   [*Tekton Hub
+            > Logo*](https://github.com/cdfoundation/foundation/issues/218)
+
+        -   [*Tekton Dashboard
+            > Logo*](https://github.com/cdfoundation/foundation/issues/198)
+
+        -   [*Screwdriver
+            > Logo*](https://github.com/cdfoundation/foundation/issues/162)
+
+        -   Need to investigate Dockerhub changes
+
+    -   Whitepapers (Tracy Miranda)
+
+        -   [*CI/CD Interoperability
+            > Whitepaper*](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit),
+
+            -   looking for reviewers, end user case studies
+
+        -   [*CI / CD
+            > Definitions*](https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#heading=h.yl0j54hk33l)
+
+            -   open for comment
+
+        -   [*Continuous Delivery
+            > Whitepaper*](https://docs.google.com/document/d/1aZT__F57g1BMPzpsV6RAC86k_FfetkAWMhdVT22PZrM/edit?ts=5f875eda#heading=h.rrar1dgps27e)
+
+            -   looking for case studies, input
+
+October 13th, 2020
+------------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CDF)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+-   **Agenda and Notes:**
+
+    -   Zoom password requirements
+
+    -   CDCon debriefs
+
+    -   [*Ortelius!*](https://github.com/cdfoundation/toc/pulls)
+
+        -   Dan to review license requirements in charter
+
+    -   Tracy R - https://youtu.be/QS5BTsJa0aQ
+
+September 29th, 2020
+--------------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CDF)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+-   **Agenda and Notes:**
+
+    -   Hacktoberfest updates
+
+        -   CDF guide to hacktoberfest page to be published this week
+
+            -   Jenkins:
+                > [*https://www.jenkins.io/events/hacktoberfest/*](https://www.jenkins.io/events/hacktoberfest/)
+
+            -   Jenkins X:
+                > [*https://jenkins-x.io/blog/2020/09/23/hacktoberfest2020/*](https://jenkins-x.io/blog/2020/09/23/hacktoberfest2020/)
+
+            -   CDF:
+                > [*https://github.com/cdfoundation/cdf-landscape*](https://github.com/cdfoundation/cdf-landscape)
+
+                -   Need some more issues & tags
+
+        -   Ongoing outreach and promotion
+
+        -   Have your issues ready!!
+
+    -   CDCon - 1 week to go!!!
+
+        -   Registration fee dropped (donation optional)
+
+        -   [*Schedule
+            > changes*](https://cdcon2020.sched.com/?iframe=no) -
+            > earlier start!
+
+        -   More interactive session: project & SIG BoFs
+
+            -   [*BoF
+                > Schedule*](https://cdcon2020.sched.com/overview/type/BoF+Sessions?iframe=no)
+
+            -   [*BoF organizer
+                > guidelines*](https://docs.google.com/document/d/1U9Cp8Xoa-FqzL5UUUaCaEk3-9AeVQBB9qhPzLAvPmQI/edit#)
+
+        -   CDCon Happy Hour to end each day
+
+            -   Kahoot, CDF musicians?
+
+        -   Remind people to
+            > [*register*](https://events.linuxfoundation.org/cdcon/register/)!
+
+    -   CD Whitepaper - Definitions, benefits, practices
+
+        -   Blog: [*We need to stop using the term
+            > CI/CD*](https://cd.foundation/blog/2020/09/24/we-need-to-stop-using-the-term-ci-cd/)
+
+        -   [***CI / CD
+            > Definitions***](https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#)
+
+    -   [*Interoperability
+        > Whitepaper*](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit)
+
+        -   Work on various chapters is happening
+
+            -   What does interoperability mean in CI/CD?
+
+            -   Trends - Events in CI/CD
+
+            -   Case Studies
+
+        -   It would be good to get contributions from different
+            > industries such as FinTech, Manufacturing, etc.
+
+    -   [*MLOps Group
+        > roadmap*](https://github.com/cdfoundation/sig-mlops/blob/master/roadmap/2020/MLOpsRoadmap2020.md)
+
+        -   2020 edition published
+
+    -   Training/Courses
+
+        -   Jenkins Essentials course coming October 6th
+
+        -   LF Training to come to a future meeting
+
+September 15th, 2020
+--------------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+-   **Agenda and Notes:**
+
+    -   Welcome Tracy (again!)
+
+        -   tmiranda@cd.foundation
+
+    -   CDCon
+
+        -   Agenda and keynotes posted
+
+        -   [*https://events.linuxfoundation.org/cdcon/register/*](https://events.linuxfoundation.org/cdcon/register/)
+
+    -   CDF Strategy Docs
+
+        -   [*Updated CDF
+            > Messaging*](https://github.com/cdfoundation/presentations/tree/master/CDFMessaging)
+
+        -   [*Strategic
+            > Goals*](https://github.com/cdfoundation/foundation/blob/master/goals.md)
+
+    -   Team Building?
+
+    -   Hacktoberfest!
+
+        -   TOC coordinating outreach
+
+        -   Projects should try to get involved - landing page,
+            > readme, etc.
+
+            -   Jenkins project:
+                > [*https://www.jenkins.io/events/hacktoberfest/*](https://www.jenkins.io/events/hacktoberfest/)
+
+        -   From project outreach. Here are a few action steps for you
+            > to take:
+
+<!-- -->
+
+-   Share any open source or content projects that your community will
+    > be working on in October, with links that would help another
+    > contributor get involved.
+
+-   Share any project ideas that you think should be targeted or
+    > explored as part of Hacktoberfest. If you're looking for
+    > developers to work on a particular project, we may be able
+    > to help.
+
+-   Share any events/activities planned for October that would be
+    > appropriate to promote as part of CDF Hacktoberfest.
+
+-   Tell us how YOU or your team plan to get involved in Hacktoberfest.
+    > Write to us, or use video, or Twitch to share the story.
+
+-   Volunteer to help organize Hacktoberfest programs like LinkedIn
+    > badging, demo sessions, prizes, and more.
+
+    -   Jenkins experience in 2019
+
+        -   127 participants last year, 60 first time contributors
+
+        -   Contributions across ecosystem: plugins, docs, demos, etc
+
+    <!-- -->
+
+    -   GSOC
+
+        -   All projects passed in both CDF and Jenkins GSoC orgs
+
+        -   Swag codes distributed
+
+        -   One good piece of feedback around some sort of
+            > forum/community experience (rather than just
+            > email/Slack DMs). Also, CDF didn't do an end of project
+            > presentation wrapup (Jenkins does).
+
+            -   Proposal is to include something in cdCon?
+
+    -   Jenkins Graduation debrief!
+
+        -   [*https://docs.google.com/document/d/1Ldmtny6OfEtQlCqdFWqq9Z25cxkZFX6yNiRqOOxo77c/edit?usp=sharing*](https://docs.google.com/document/d/1Ldmtny6OfEtQlCqdFWqq9Z25cxkZFX6yNiRqOOxo77c/edit?usp=sharing) -
+            > Jenkins project checklist
+
+        -   Was a good community bonding experience!
+
+    -   Calendar logistics!
+
+        -   The public calendar is here:
+            > <https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles>
+
+September 1st, 2020
+-------------------
+
+**CANCELLED**
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+-   **Agenda and Notes:**
+
+    -   ~~Jenkins Graduation debrief!~~
+
+August 18th, 2020
+-----------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+-   **Agenda and Notes:**
+
+    -   Updates on Jenkins CI/hosting discussion
+
+    -   Jenkins Graduation debrief!
+
+    -   Isaac taking over Andy's spot
+
+        -   Quick Spinnaker update from Isaac
+
+        -   Armory is more motivated to keep the Spinnaker community
+            > healthy
+
+        -   SpinnakerLive just happened and went well! 800+ attendees
+
+        -   Spinnaker Graduation coming up next!
+
+        -   Dan to attend Spinnaker steering committee to answer
+            > questions, explain what the TOC can do for Spinnaker
+
+    -   Spinnaker Security Audit
+
+        -   Work from Armory and the community to get started on
+            > existing CVEs and threat models
+
+    -   Nothing really pressing on the APAC friendly-agendas, consider
+        > dropping these and going back to just NA/EMEA friendly
+        > timezones
+
+    -   Interoperability Whitepaper for review
+
+        -   [*https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA\_gGdMnPHq9Q/edit?usp=gmail\_thread&gxids=7628*](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit?usp=gmail_thread&gxids=7628)
+
+~~August 4th, 2020~~
+--------------------
+
+**MEETING CANCELLED**
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+-   **Agenda and Notes:**
+
+July 21, 2020
+-------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+    -   James Rawlings (Jenkins X / CloudBees)
+
+    -   Oleg Nenashev (Jenkins/CloudBees)
+
+-   **Agenda and Notes:**
+
+    -   \[LF Update\] - Brian
+
+        -   In the future, Gale wil be ramping up and taking over. Until
+            > then I will be helping.
+
+        -   Send any requests/backlog items via email to:
+            > operations@cd.foundation
+
+    -   Jenkins Graduation review request
+
+        -   Request:
+            > [*https://lists.cd.foundation/g/cdf-toc/message/471*](https://lists.cd.foundation/g/cdf-toc/message/471)
+
+        -   Checklist:
+            > [*https://docs.google.com/document/d/1Ldmtny6OfEtQlCqdFWqq9Z25cxkZFX6yNiRqOOxo77c/edit?usp=sharing*](https://docs.google.com/document/d/1Ldmtny6OfEtQlCqdFWqq9Z25cxkZFX6yNiRqOOxo77c/edit?usp=sharing)
+
+        -   Next steps
+
+    -   Project budget review/requests
+
+        -   CI/recurring budget form [*went
+            > out*](https://docs.google.com/forms/d/e/1FAIpQLScbjgITG83TojQTQw0k0p1DMU3XUDDh-sim73-nHMAmuj1Ocg/viewform?gxids=7628),
+            > waiting on a few responses
+
+        -   Other expenses for the next board meeting?
+
+            -   Security audits, etc.
+
+        -   \[Question\] - Graduation criteria around CII
+
+            -   CII also funds audits for open source projects
+
+            -   DL: given the historical background of how CII came into
+                > being (heartbleed), I suspect we are expected to go
+                > from CDF. BW: +1
+
+            -   BW: we have a number of experts within LF, and they can
+                > help, particularly around the process.
+
+        -   \[Question\] Can the LF help host CI infrastructure?
+
+            -   (KK: this isn’t just CI, right?)
+
+            -   Brian - The LF is looking into this from some
+                > other projects.
+
+            -   LF can optimize cost with credits from cloud providers
+
+        -   
+
+Jul 7th, 2020:
+--------------
+
+Meeting cancelled.
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+-   **Agenda and Notes:**
+
+    -   Project budget review
+
+    -   Jenkins Graduation update
+
+Jun 16th, 2020 (APAC Friendly):
+-------------------------------
+
+Meeting Cancelled
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+-   **Agenda and Notes:**
+
+    -   Contributor Covenant 2.0 adoption in projects.Is TOC fine with
+        > projects using it instead of 1.4 used by CDF?
+
+        -   Background CDF Project Graduation, Code of Conduct adoption
+            > requirement
+
+        -   CDF uses Contributor Covenant 1.4, Jenkins community
+            > considers updating to 1.4 or 2.0
+
+            -   [*https://github.com/cdfoundation/toc/blob/master/CODE\_OF\_CONDUCT.md*](https://github.com/cdfoundation/toc/blob/master/CODE_OF_CONDUCT.md)
+
+        -   [*https://www.contributor-covenant.org/version/1/4/code-of-conduct/*](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
+
+        -   [*https://www.contributor-covenant.org/version/2/0/code\_of\_conduct/*](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
+
+        -   [*https://groups.google.com/forum/\#!topic/jenkinsci-dev/u0T56f9MSZY*](https://groups.google.com/forum/#!topic/jenkinsci-dev/u0T56f9MSZY)
+
+        -   **Yes, this is fine.**
+
+Jun 2nd, 2020:
+--------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+    -   Jacqueline Salinas (CDF)
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Tracy Miranda (CloudBees)
+
+    -   Vaidik Kapoor
+
+-   **Agenda and Notes:**
+
+    -   Gathering Project roadmaps to help outreach committee/gb
+
+        -   We also need these for SIGs!
+
+            -   [*SIG MLOps Roadmap (not
+                > yet published)*](https://github.com/cdfoundation/sig-mlops/blob/master/roadmap/2020/MLOpsRoadmap2020.md)
+
+            -   [*SIG Interoperability
+                > Roadmap (proposal)*](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.eqpoxxy8gmzz)
+
+            -   SIG Security ?
+
+        -   [*https://github.com/spinnaker/governance/blob/master/roadmap.md*](https://github.com/spinnaker/governance/blob/master/roadmap.md)
+
+        -   [*https://www.jenkins.io/project/roadmap/*](https://www.jenkins.io/project/roadmap/)
+
+        -   [*https://github.com/tektoncd/community/blob/master/roadmap.md*](https://github.com/tektoncd/community/blob/master/roadmap.md)
+
+        -   Need contact info to reach out to for this
+
+            -   Goal is to start tracking/planning noteworthy
+                > announcements
+
+            -   Goal is not to micromanage/interfere
+
+            -   We encourage projects to maintain roadmaps
+
+        -   We can do a retroactive quarterly update - what we released
+            > in the last 3 months
+
+        -   Should we consider a form/system to notify outreach a few
+            > weeks ahead of a major release?
+
+            -   2-3 weeks ahead of time is enough to coordinate, PR can
+                > take longer
+
+            -   Dan to try/dry run this for the next upcoming tekton
+                > release
+
+    -   virtual collaboration summit- call for participation
+
+        -   building on postponed in-person event
+
+        -   one day virtual event
+
+        -   Goal is to do this in the next 1-2 months, could repeat
+            > regularly
+
+        -   Jacque to add link to LF resources
+
+    -   CDF jobs board!
+
+    -   Reminders to book podcasts/webinars!
+
+        -   These can be transcribed/translated
+
+        -   Submit your newsletter:
+            > [*https://cd.foundation/stay-connected/newsletter-submission-form/*](https://cd.foundation/stay-connected/newsletter-submission-form/)
+
+        -   Submit your podcast:
+            > [*https://cd.foundation/podcast/podcast-submission-form/*](https://cd.foundation/podcast/podcast-submission-form/)
+
+        -   Submit your webinar:
+            > [*https://cd.foundation/webinar-submission-form/*](https://cd.foundation/webinar-submission-form/)
+
+    -   Upcoming landscape pruning session!
+
+        -   [*https://landscape.cd.foundation/*](https://landscape.cd.foundation/)
+
+    -   Landscape
+
+        -   Non open-source listings on the landscape, looks to be
+            > against the guidance?
+
+            -   Related to this issue:
+                > [*https://github.com/cdfoundation/cdf-landscape/issues/67*](https://github.com/cdfoundation/cdf-landscape/issues/67)
+
+    -   CDF Messaging
+
+        -   [*Intro Messaging Slides-first
+            > 5*](https://docs.google.com/presentation/d/1gMtLIztanuqFqcSzs-u7GMl3blBwGZ2bmPNQ-lWpeJY/edit#slide=id.p)
+
+    -   Recommend an ambassador and entice them w/this:
+        > [*https://store.cd.foundation/collections/frontpage/products/ambassador-kit*](https://store.cd.foundation/collections/frontpage/products/ambassador-kit)
+
+    -   Project Graduations:
+
+        -   Jenkins shooting for end of July
+
+May 19, 2020: (APAC Friendly)
+-----------------------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+    -   Kohsuke Kawaguchi (Jenkins) - present
+
+-   **Other Attendees:**
+
+    -   Zhao (Rick) Xiaojie
+
+    -   -   
+
+-   **Agenda and Notes:**
+
+    -   Chinese Language SIG proposal:
+        > [*https://github.com/cdfoundation/toc/pull/75*](https://github.com/cdfoundation/toc/pull/75)
+
+        -   Tara: do we have enough contributors for all the projects?
+
+            -   Central team to manage many different projects under the
+                > CDF umbrella
+
+        -   Dan Lorenc: should we broaden this to include other social
+            > media efforts in addition to localization?
+
+            -   Tara: Yes let's make sure to include Dan Lopez/Jacque to
+                > see what other efforts the LF includes
+
+        -   KK: LF has dedicated staff in China. Are we connected with
+            > them?
+
+            -   The CDF community can always reach out to our LF APAC
+                > team at
+                > [*china@cd.foundation*](mailto:%20china@cd.foundation)
+
+        -   Next Step:
+
+            -   Fill out the proposal template:
+                > [*https://github.com/cdfoundation/toc/blob/master/GROUPS.md*](https://github.com/cdfoundation/toc/blob/master/GROUPS.md)
+                > including information on other activities (including
+                > social media/promotion/etc.).
+
+            -   Dan Lorenc to investigate how the LF can assist here.
+
+    -   Contributor Covenant versions
+
+        -   CDF recommending v0.5, Jenkins/Spinnaker using v1.4.0, there
+            > is already a 2.0
+
+        -   Screwdriver CoC -
+            > [*https://github.com/screwdriver-cd/screwdriver/blob/master/code-of-conduct.md*](https://github.com/screwdriver-cd/screwdriver/blob/master/code-of-conduct.md)
+
+        -   We should reconcile to see how different these all are
+
+        -   We generally feel we can evaluate the CoC for each project
+            > to make sure they meet or exceed our requirements.
+
+        -   Dan Lorenc to make sure our intent is captured correctly in
+            > the requirements and we have a process to review CoCs
+            > for projects.
+
+    -   Code of Conduct
+
+        -   Can CDF provide help to projects on enforcement?
+
+        -   Yes, make it clear the CDF ToC code of conduct committee can
+            > provide expertise and help
+
+    -   Training curriculum
+
+        -   DevSecOps - How to implement a secure software delivery
+            > system
+
+        -   Reach out to Dan if you're interested in participating in
+            > the curriculum
+
+    -   Interoperability Summit - Virtual Edition!
+
+        -   Reach out to Dan if you'd like to help plan
+
+    -   Reminder: CDF Landscape approvals
+
+        -   [*https://github.com/cdfoundation/cdf-landscape/pulls*](https://github.com/cdfoundation/cdf-landscape/pulls)
+
+    -   Project Office Hours/Happy Hours
+
+        -   Reach out to Jacque
+
+    -   
+
+May 5, 2020:
+------------
+
+-   **TOC Attendees:**
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) \[Chair\] - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci, Ericsson Software Technology
+
+    -   Dan Lopez (Linux Foundation / CDF)
+
+    -   Tracy Miranda (CloudBees)
+
+-   **Agenda and Notes:**
+
+    -   SIG Interoperability Update
+
+        -   [*https://docs.google.com/presentation/d/169XI0xHzltPJfGI4ZBSoZ1-y0DLabe8uKueDbsW9f8E/edit*](https://docs.google.com/presentation/d/169XI0xHzltPJfGI4ZBSoZ1-y0DLabe8uKueDbsW9f8E/edit)
+
+    -   Review graduation requirements:
+
+        -   [*https://github.com/cdfoundation/toc/pull/79*](https://github.com/cdfoundation/toc/pull/79)
+
+        -   Should we require the security audit?
+
+            -   Did Spinnaker do one?
+
+                -   Needs to be updated with new one.
+
+        -   Keep security audit optional for now but highly recommended
+
+        -   Security Audits - how to schedule for projects?
+
+            -   What is the usual cost? Do we have budget? How long do
+                > they take?
+
+            -   Dan Lop to send out SOW Draft and scope
+
+    -   New project outreach
+
+        -   Ideas? Suggestions?
+
+            -   Status of current demos in SIGs?
+
+        -   Let's keep this all in one place, where should it go?
+
+        -   Demos get recorded and linked to in SIG repos/email updates
+
+        -   Need a document explaining benefits and process.
+
+            -   Process doc is already here:
+                > [*https://github.com/cdfoundation/toc/blob/master/PROJECT\_LIFECYCLE.md*](https://github.com/cdfoundation/toc/blob/master/PROJECT_LIFECYCLE.md)
+
+                -   Can be clarified some
+
+            -   Subgroup under TOC for project recruitment?
+
+            -   Standing agenda item?
+
+                -   Will start with this for now. Tracy to reach out
+                    > with GB to see who is interested.
+
+            -   Dan and Dan to resolve existing projects via email
+
+    -   Presenter requests -- how to simplify this process? (Tara on
+        > behalf of Jacque)
+
+        -   Request from a company on someone to present on a CICD topic
+
+        -   [*Speakers
+            > bureau?*](https://cd.foundation/news/speakers-bureau/)
+
+        -   Contact lists - Jacque to create an email group
+
+            -   Under outreach committee scope?
+
+            -   List of email lists and speakers
+
+            -   2 requests last week, not that many usually
+
+            -   Dan Lopez to resolve with Jacque
+
+                -   [*cdf-speakers@lists.cd*](mailto:cdf-speakers@lists.cd).foundation
+
+                -   speakers@cd.foundation -&gt; pr@cd.foundation
+
+                -   
+
+    -   GSOC Update
+
+        -   All three projects funded!
+
+        -   Mentors will start reaching out, projects are confirmed
+
+        -   Screwdriver project and two spinnaker projects
+
+        -   Jenkins submitted independently - 6 projects for Jenkins and
+            > 1 for jx
+
+        -   Press release on this!
+
+    -   Time Zone-friendly meetings times, “Part Deux”
+
+        -   Two requests:
+
+            -   Alternating 6pm (pacific) meetings.
+
+                -   Let's start this one next time
+
+            -   Move 9am back to 8am
+
+    -   --- For next Time ---
+
+    -   Training curriculum
+
+        -   DevSecOps - How to implement a secure software delivery
+            > system
+
+        -   ??
+
+    -   Interoperability Summit - Virtual Edition!
+
+    -   CDF Landscape approvals
+
+        -   [*https://github.com/cdfoundation/cdf-landscape/pulls*](https://github.com/cdfoundation/cdf-landscape/pulls)
+
+April 21, 2020:
+---------------
+
+-   **TOC Attendees:**
+
+    -   Kohsuke Kawaguchi (Cloudbees/Jenkins) \[CHAIR\] - present
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+-   **Other Attendees:**
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Dan Lopez (Linux Foundation)
+
+-   **Agenda and Notes:**
+
+    -   New TOC Chairperson: Dan Lorenc!!
+
+        -   Thank you everyone!
+
+    -   New SIG?
+        > [*https://github.com/cdfoundation/toc/issues/77*](https://github.com/cdfoundation/toc/issues/77)
+
+    -   GSoC
+
+        -   2 minimum, 3 maximum slots requested, waiting on response.
+
+    -   Virtual Summits
+
+        -   Dan Lorenc - revisit developer summit?
+
+        -   LF trying a few different models here
+
+            -   Large ones - tougher
+
+            -   Small ones - UX on top of Zoom/WebEx, easy to get going
+
+            -   Hackathons/mini summits are working well
+
+            -   Multi-track stuff requires a lot of coordination
+
+        -   All Day DevOps is another virtual summit
+
+    -   Podcast series spinning up
+
+        -   What kind of interviews do we want to have? Maintainers?
+            > Projects? New Releases?
+
+    -   Landscape Maintenance
+
+        -   We need to prune/add/curate the
+            > [*landscape*](https://github.com/cdfoundation/landscape)
+
+        -   Add Keptn, Eiffel, others (Dan Lop)
+
+            -   Other projects: Testing, MLOps, etc
+
+    -   SIG Checkup, get updates, interview SIG chairs
+
+    -   Newsletter monthly topics:
+        > [*https://cd.foundation/stay-connected/newsletter-submission-form/*](https://cd.foundation/stay-connected/newsletter-submission-form/)
+
+        -   SIG chair interviews..
+
+    -   Roadmap 2020
+
+        -   KK - kicked off last year
+
+        -   WG proposal
+
+    -   Training Programs - Certifications, New Courses
+
+        -   great return on investment
+
+        -   need to coordinate certifications
+
+    -   Case Studies
+
+        -   Driven by outreach committee
+
+        -   Have a template structure
+
+    -   Certification of CI/CD architecture similar to something like
+        > CMM-I Levels
+
+        -   “CDF Level 3 certified”
+
+        -   Fatih recommends checking out “LFN OVP” badge system
+
+        -   Dan Lop to get someone from LFN and other teams re:
+            > certification progs
+
+April 7, 2020:
+--------------
+
+-   **TOC Attendees:**
+
+    -   Kohsuke Kawaguchi (Cloudbees/Jenkins) \[CHAIR\] - present
+
+    -   James Strachan (Cloudbees/Jenkins X) - not present
+
+    -   Dan Lorenc (Google/Tekton) - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) - not present
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+-   **Other Attendees:**
+
+    -   Dan Lopez (Linux Foundation)
+
+    -   Andreas Grimmer (Dynatrace)
+
+    -   Fatih Degirmenci (Ericsson Software Technology)
+
+    -   Eric Sorenson (Puppet)
+
+-   **Agenda and Notes:**
+
+    -   TOC Chair nomination/election
+
+        -   April 10 - Voting closes at 6pm PST.
+
+    -   GSoC
+
+        -   Project proposal stage completed
+
+        -   CDF received 9 submissions, 3 good quality focussed on
+            > projects
+
+            -   2 Spinnaker, 1 Screwdriver.cd
+
+            -   Jenkins & Jenkins X lots of proposals (separate org)
+
+            -   April 21 is slot decision date
+
+March 24, 2020:
+---------------
+
+-   **TOC Attendees:**
+
+    -   Kohsuke Kawaguchi (Cloudbees/Jenkins) \[CHAIR\] - present
+
+    -   James Strachan (Cloudbees/Jenkins X) -
+
+    -   Dan Lorenc (Google/Tekton) - present
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) -
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+-   **Other Attendees:**
+
+    -   Dan Lopez - Linux Foundation / CDF
+
+    -   Oleg Nenashev - CloudBees / Jenkins
+
+    -   Fatih Degirmenci, Ericsson Software Technology
+
+    -   Kara de la Marck - CloudBees / Jenkins X
+
+    -   Andreas Grimmer - Dynatrace / Keptn
+
+    -   Tracy Miranda - CloudBees (Governing Board)
+
+-   **Agenda and Notes:**
+
+    -   TOC Chair nomination/election
+
+        -   DLz: let’s extend one more week.
+
+        -   TH: I suggest we take a drastic next step
+
+        -   AGREED: let’s push out a deadline of TOC chairman by a month
+
+            -   Jithin: what does this mean for GSoC? I got a
+                > few interests.
+
+        -   ACTION: Kohsuke to invite Tara to GB as an observer
+
+    -   GSoC
+
+        -   Jac: I’d like to get updates on this effort, too. I have
+            > little visibility into this
+
+        -   TH: GSoC program is getting delayed. Organizers are
+            > scrambling as we speak. Program is still very popular.
+
+        -   TH: Tekton is not absorbing the GSoC program.
+
+        -   Jithin: where should the students send their applications
+            > to?
+
+            -   ACTION: Org admins will figure this out and get back to
+                > Jithin
+
+        -   [*https://github.com/cdfoundation/soc*](https://github.com/cdfoundation/soc)
+
+            -   Template:
+                > [*https://github.com/cdfoundation/soc/blob/master/PROJECT\_IDEA\_TEMPLATE.md*](https://github.com/cdfoundation/soc/blob/master/PROJECT_IDEA_TEMPLATE.md)
+
+        -   Who should step up as org admin? Jac &TH will.
+
+            -   TracyM: Oleg is happy to help but somebody from the CDF
+                > side should lead this
+
+            -   ACTION: TracyM to set up a call with Oleg & Jac & TH &
+                > Jithin
+
+    -   Collaboration Working Summit
+
+        -   \[dlorenc will send an update this week\]
+
+        -   Cancelled for now. Will try to hold a one day virtual event
+            > when things calm down a bit.
+
+March 10, 2020:
+---------------
+
+-   **TOC Attendees:**
+
+    -   Kohsuke Kawaguchi (Cloudbees/Jenkins) \[CHAIR\] - present
+
+    -   James Strachan (Cloudbees/Jenkins X) -
+
+    -   Dan Lorenc (Google/Tekton) - not present (traveling)
+
+    -   Andy Glover (Netflix/Spinnaker) - not present
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) -
+
+    -   Jithin Emmanuel (Screwdriver/Verizon Media) - present
+
+-   **Other Attendees:**
+
+    -   Dan Lopez - Linux Foundation / CDF
+
+    -   Oleg Nenashev - CloudBees / Jenkins
+
+    -   Fatih Degirmenci, Ericsson Software Technology
+
+    -   Kara de la Marck - CloudBees / Jenkins X
+
+    -   Andreas Grimmer - Dynatrace / Keptn
+
+    -   Tracy Miranda - CloudBees (Governing Board)
+
+-   **Agenda and Notes:**
+
+    -   Google Summer of Code \[Tracy, Oleg, Kara\]
+
+        -   [*https://summerofcode.withgoogle.com/organizations/5550056498790400/*](https://summerofcode.withgoogle.com/organizations/5550056498790400/)
+
+        -   [*https://github.com/cdfoundation/mentoring/pull/1*](https://github.com/cdfoundation/mentoring/pull/1)
+
+        -   Jenkins is separately accepted. We’ve been doing it
+            > for years. Oleg has a lot of experience so he did
+            > knowledge transfer.
+
+        -   Who is org admin? Dan Lz, Jaq and Oleg at the moment
+
+            -   Pending - TracyM, Tara H, Dan Lorenc,
+
+            -   Limit up to 5. Oleg will step down.
+
+        -   How do we get project ideas submitted? DLz: let’s just set
+            > up Google Form.
+
+        -   (for projects) how to participate?
+
+            -   First, you need project ideas. What students could
+                > work on. They submit applications by the end of March.
+
+            -   Involves lots of communications to get there, so
+                > establish a good channel.
+
+            -   Those are the two most important things
+
+        -   Kara knows how it was like to get Jenkins X going. It was
+            > helpful to get KT from Oleg.
+
+        -   Tara: I need to reconnect with Christie (tekton) to see how
+            > Outreachy has gone with Tekton. I want to make sure we
+            > have adequate bandwidth from the projects to support
+            > these programs.
+
+        -   ACTION: Tracy to send out email inviting other projects
+
+        -   ACTION: Dan to create link for slack invite (ala CNCF e.g.
+            > [*https://slack.cncf.io/*](https://slack.cncf.io/))
+
+    -   Collaboration Working Summit will be postponed. \[Dan Lorenc\]
+
+        -   Plan is to start with a one day virtual event in
+            > early April.
+
+        -   Tara: timeline might be still aggressive, given all the
+            > other chaos that’s going on.
+
+        -   DLc should be back any moment now
+
+    -   TOC Chair nomination/election
+
+        -   Nomination period opens week of Mar 9
+
+        -   ACTION: DLz will send out the instruction on how
+            > to nominate.
+
+    -   CD Summit EU postponed until July/Aug (TBD)
+
+    -   AOB?
+
+        -   
+
+February 25, 2020:
+------------------
+
+-   **TOC Attendees:**
+
+    -   Kohsuke Kawaguchi (Cloudbees/Jenkins) \[CHAIR\] - present
+
+    -   James Strachan (Cloudbees/Jenkins X) -
+
+    -   Dan Lorenc (Google/Tekton) -
+
+    -   Andy Glover (Netflix/Spinnaker) -
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) -
+
+-   **Other Attendees:**
+
+    -   Dan Lopez - Linux Foundation / CDF
+
+    -   David Lai - Futurewei / CDF Board
+
+    -   Eric Sorenson - Puppet
+
+    -   Jacque Salinas - CDF
+
+    -   Alejandro Saucedo - Seldon / The Institute for Ethical AI &
+        > Machine Learning
+
+    -   Fatih Degirmenci - Ericsson Software Technology
+
+    -   Jithin Emmanuel - Screwdriver/Verizon Media
+
+-   **Agenda and Notes:**
+
+    -   Incubating
+
+        -   Screwdriver.cd
+
+            -   Paperwork/forms (Dan Lopez, Steve Winslow,
+                > Jithin Emmanuel)
+
+                -   **TOC membership - internal nomination (Gil, Jithin)
+                    > **
+
+                    -   Plan is to appoint an interim. Jithin will
+                        > discuss this within the project to quickly
+                        > confirm this.
+
+                    -   AI: Jithin to email DLz & KK offline
+
+                -   Jithin still waiting on forms, DanLz to go poke LF
+                    > people to unwedge
+
+                    -   DLz: this ball is still in my court.
+
+                -   Still need to sort out some mutual comms with
+                    > Verizon/Yahoo, and Screwdriver will be included in
+                    > upcoming media release
+
+                -   KK: this reminds me of where the IP transfer is wrt
+                    > Jenkins
+
+                    -   DLz: there’s something larger, which is IP
+                        > policy at the foundation level. This needs to
+                        > be approved at GB.
+
+                        -   There’s currently a TOC level ticket, but
+                            > given this it should move up to the
+                            > GB level.
+
+        -   Presentations/Proposals
+
+            -   Keptn.sh - scheduling, coordinating -- “still in talks”
+
+                -   FD: Christie & DLz reached out and there’ll be a
+                    > presentation in early March. In Interop SIG.
+
+            -   Eiffel presentation already happened at SIG (see
+                > last TOC)
+
+                -   What’s their interest / next step? FD: I’ll get more
+                    > intel from that BU.
+
+                -   KK: happy to help with “sales” if useful
+
+            -   &lt;&lt; Two projects are similar enough, there’s some
+                > concerns about the overlap &gt;&gt;
+
+    -   Call for Content
+
+        -   Jac & TH: Newsletter - Feb 24 COB pacific latest
+
+            -   Project updates/releases (e.g. security patches,
+                > feature whiz)
+
+            -   Form for submitting content:
+                > &lt;https://forms.gle/GZbKAPE5VWT7VUuq7 :)
+
+                -   Jac: there should be some TOC level updates &
+                    > project level updates — the latter we see in the
+                    > project website but that’s not getting propagated
+                    > to us
+
+                    -   Newsletter is currently delivered to 800 or so
+                        > people
+
+                    -   We need more content
+
+                    -   **KK: I’ve seen this struggle before. I can
+                        > write a letter to project people**
+
+        -   Dan Lopez - if you are not yet receiving the newsletter,
+            > please sign up here:
+            > [*https://cd.foundation/stay-connected/*](https://cd.foundation/stay-connected/)
+
+    -   Case Studies (Jacque Salinas)
+
+        -   We are collecting them. We have templates. 2 for Spinnaker,
+            > 1 for Jenkins, more are welcome. They will be
+            > published later.
+
+            -   KK: is there one pager that describes “what’s in it for
+                > you?” so that we can distribute to users. Jac: I’ll
+                > take that AI.
+
+    -   Events & Meetups
+
+        -   Collaboration Summit:
+            > [*https://docs.google.com/document/d/1UHbLuffTsYp9nhBZ8eQLmpymOH2X98PkxZRcveB2\_Xk/edit*](https://docs.google.com/document/d/1UHbLuffTsYp9nhBZ8eQLmpymOH2X98PkxZRcveB2_Xk/edit)
+
+            -   DanLc sending out mails/posting to Slack to see who’s
+                > interested
+
+            -   Jac: we should reach out to the outreach committee. I
+                > don’t have the bandwidth to organize this atm — venue,
+                > logistics, etc. Summits are eating up my time.
+
+            -   Jac: funding? This is not currently budgeted.
+
+            -   AI: Jac to write to DLc & Alyssa about the
+                > situation above. Either DLc will book some Google
+                > conference room or Alyssa to drive this from the
+                > outreach committee
+
+            -   Timeline of April seems aggressive.
+
+            -   **Really need input from DLc**
+
+        -   CD Summit EU 2020 - Amsterdam
+
+    -   AOB?
+
+        -   
+
+February 11, 2020:
+------------------
+
+-   **TOC Attendees:**
+
+    -   Kohsuke Kawaguchi (Cloudbees/Jenkins) \[CHAIR\] -
+
+    -   James Strachan (Cloudbees/Jenkins X) -
+
+    -   Dan Lorenc (Google/Tekton) - present
+
+    -   Andy Glover (Netflix/Spinnaker) -
+
+    -   Tara Hernandez (Google) - present
+
+    -   Yoav Landman (JFrog) -
+
+-   **Other Attendees:**
+
+    -   Dan Lopez - Linux Foundation / CDF
+
+    -   David Lai - Futurewei / CDF Board
+
+    -   Tracy Ragan - DeployHub / CDF Board
+
+    -   Eric Sorenson - Puppet
+
+    -   Jacque Salinas - CDF
+
+    -   Fatih Degirmenci - Ericsson Software Technology
+
+    -   Jithin Emmanuel - Screwdriver/Verizon Media
+
+-   **Agenda and Notes:**
+
+    -   First draft, Resilience SIG:
+        > [*https://github.com/tequilarista/toc/blob/master/sigs/sig-resilience.md*](https://github.com/tequilarista/toc/blob/master/sigs/sig-resilience.md)
+
+    -   Collaboration Summit:
+        > [*https://docs.google.com/document/d/1UHbLuffTsYp9nhBZ8eQLmpymOH2X98PkxZRcveB2\_Xk/edit*](https://docs.google.com/document/d/1UHbLuffTsYp9nhBZ8eQLmpymOH2X98PkxZRcveB2_Xk/edit)
+
+        -   DanLc sending out mails/posting to Slack to see who’s
+            > interested
+
+    -   SIG Interoperability -
+        > [*https://www.youtube.com/watch?v=thr8-duWvt0*](https://www.youtube.com/watch?v=thr8-duWvt0)
+
+        -   Eiffel presentation - See incubating
+
+        -   Tara to followup with Jacquie/Dan on newsletter updates from
+            > TOC
+
+            -   FYI - DanLz has a pre/post roll for branding CDF videos,
+                > we should encourage recordings for meetings where
+                > feasible
+
+    -   Incubating
+
+        -   Screwdriver.cd
+
+            -   Paperwork/forms (Dan Lopez, Steve Winslow,
+                > Jithin Emmanuel)
+
+                -   Jithin still waiting on forms, DanLz to go poke LF
+                    > people to unwedge
+
+                -   Still need to sort out some mutual comms with
+                    > Verizon/Yahoo, and Screwdriver will be included in
+                    > upcoming media release
+
+        -   Presentations/Proposals
+
+            -   Eiffel - conducted demo at SIG interoperability (see
+                > youtube \^\^\^)
+
+            -   Keptn.sh - scheduling, coordinating -- “still in talks”
+
+    -   Call for Content
+
+        -   Newsletter - Feb 18 COB pacific
+
+            -   Project updates/releases (e.g. security patches,
+                > feature whiz)
+
+            -   Form for submitting content:
+                > &lt;https://forms.gle/GZbKAPE5VWT7VUuq7 :)
+
+        -   Dan Lopez - if you are not yet receiving the newsletter,
+            > please sign up here:
+            > [*https://cd.foundation/stay-connected/*](https://cd.foundation/stay-connected/)
+
+    -   Case Studies (Jacque Salinas)
+
+        -   First 3 drafts complete, staged for review
+
+            -   2 from Spinnaker
+
+            -   1 from Jenkins
+
+            -   Publishing this content will be gated against a social
+                > media campaign to help organize/solicit interest
+
+            -   Would like to get something from Jenkins X and Tekton as
+                > well, particularly if there’s anything that’s already
+                > been published that can be included
+
+    -   Jacque Salinas -- looking for sponsors/help fundraising for
+        > CD Summit.
+
+        -   Silver and Premier sponsorships available
+
+        -   DEI scholarships
+
+        -   Social event (cocktail hour)
+
+        -   Lunch sponsors also desired (\$2500 - 3
+            > sponsorships available)
+
+        -   Also hoping to rent lead capture infra from KubeCon
+
+    -   Need to create product data sheet
+
+        -   What does it do, how is it different from other things (i.e.
+            > Jenkins v. Jenkins X)
+
+        -   Tara to set up worksheet and get products to contribute info
+
+    -   New swag updates - send ideas/requests/new logos to Jacque
+
+        -   New Screwdriver stuff pending
+
+January 28, 2020:
+-----------------
+
+-   **TOC Attendees:**
+
+    -   Kohsuke Kawaguchi (Cloudbees/Jenkins) \[CHAIR\] - Present
+
+    -   James Strachan (Cloudbees/Jenkins X) - Absent
+
+    -   Dan Lorenc (Google/Tekton) - Present
+
+    -   Andy Glover (Netflix/Spinnaker) - Absent
+
+    -   Tara Hernandez (Google) - Present
+
+    -   Yoav Landman (JFrog) - Absent
+
+-   **Other Attendees:**
+
+    -   Dan Lopez (Linux Foundation) - present
+
+    -   Fatih Degirmenci (Ericsson Software Technology) - present
+
+    -   David Lai - (Futurewei, CDF Governing Board)
+
+    -   Katrin Runser (JFrog)
+
+    -   Jithin Emmanuel (Screwdriver)
+
+    -   Tracy Regan
+
+    -   Eric Sorenson (Puppet)
+
+    -   Spencer Krum
+
+-   **Agenda and Notes:**
+
+    -   Review of
+        > [*https://github.com/cdfoundation/toc/issues/70*](https://github.com/cdfoundation/toc/issues/70)
+        > -- whether or not the CDF should have a governance model for
+        > SIGS in the foundation
+
+        -   FD: as a SIG leader I was looking for some guidance on how
+            > to run SIG, and I found nothing. I looked around and CNCF
+            > had a lot more clarity here. So that brought me to this.
+
+            -   KK: examples?
+
+                -   FD: Eric from Puppet showed interest to join SIG. I
+                    > was wondering how to go about it.
+
+                -   Tara: Code of Conduct
+
+        -   KK: my initial reaction is to find a groove and then capture
+            > how we found ourselves running them
+
+        -   Tara: is there anything we can think ahead now, that’d
+            > be nice. So any lessons, whether it’s from CNCF or from
+            > others, would be valuable
+
+            -   Tara: \[I’ll start with one\] don’t let them linger if
+                > one is dead.
+
+        -   Tracy: there’s CI ~~SIG~~WG in CNCF. Should we be involved
+            > with that? Between two foundations I feel we have too many
+            > of them.
+
+            -   DLc: that SIG is to run CI service for the rest of CNCF.
+
+            -   FD: I’ve been involved in CI WG @ CNCF so this
+                > conversation is now ongoing
+
+        -   &lt;&lt; Tara talks about her aspiration of interop
+            > SIG &gt;&gt;
+
+        -   Tracy: what’s the difference between SIG and WG?
+
+            -   There’s a definition. SIG is long running, WG is one off
+                > task and be done.
+
+            -   Tracy: I note that [*our
+                > website*](https://cd.foundation/) doesn’t list WGs.
+
+                -   **DLz: Tara to file a foundation ticket at the
+                    > service desk**
+
+        -   **Next step: Tara to take a stab at the first cut**
+
+    -   SIG-Interoperability
+
+        -   Presentations from/discussions with users and projects -
+            > [*schedule*](https://docs.google.com/document/d/1Owg_I52WEXzqF8g_lX6OTdwbHkH4Z2-7TBA7eCSVMqY/edit?usp=sharing)
+
+            -   FD: users & projects are lined up to present. You are
+                > more than welcome to join if you are interested in
+                > talking to those users & projects, outside the context
+                > of the SIG
+
+        -   Tara: shall we involve Keptn here? **AI: DLc to reach out**
+
+    -   Call for end users to participate in panel discussion at CD
+        > Summit Amsterdam \[DLc\]
+
+        -   We want 4-5 of those to discuss the practices. If you know
+            > anyone, send them on my way
+
+        -   DLc to create an URL that we can send interested people to,
+            > so that the rest of us can spread the news
+
+    -   Review of project status - incubating vs. graduated. \[DLc\]
+
+        -   Tracy notes that all our projects are incubating. We should
+            > work big projects toward a graduation
+
+        -   **AI: KK to talk to Jenkins board and start moving this
+            > process forward.**
+
+    -   Screwdriver press release
+
+        -   Jac: we haven’t really announced it. I’m working on it atm,
+            > will ask Jesse and other comms people to take it from
+            > there
+
+        -   We verified that nobody else is working on this
+
+    -   Resiliency SIG
+
+        -   Tara: I’ve made some progress. PR to come. By the next
+            > meeting ideally.
+
+        -   Trying to get chaos engineering / resiliency folks to
+            > participate
+
+    -   AOB?
+
+        -   Jac: Do we have an established process for incubating
+            > projects to report progress?
+
+            -   DLz: yes, but on technical side.
+
+            -   Jac: I’m looking for content that we can use to
+                > promote projects.
+
+            -   Create a web form where project people can submit a lead
+                > and that shall start a followup conversation
+
+            -   KK: I will connect Jac to people & feed channels for
+                > user-facing news source of various projects
+
+        -   Jac: CD Summit EU CfP is out. More submissions,
+            > registrations, sponsors, etc are welcome
 
 January 14, 2020:
 -----------------
@@ -32,7 +1998,7 @@ January 14, 2020:
 
     -   Dan Lopez (Linux Foundation) - present
 
-    -   Fatih Degirmenci (Ericsson Software Technology)
+    -   Fatih Degirmenci (Ericsson Software Technology) - present
 
     -   David Lai - (Futurewei, CDF Governing Board)
 
