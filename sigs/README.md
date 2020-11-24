@@ -9,8 +9,10 @@ TOC and TOC Contributors have fulfilled SIG duties in the past and will continue
 
 TOC will identify at least one voting member as TOC Liason for each [proposed SIG](proposed.md). The SIG TOC Liason will work with TOC contributors identify prospective chairs and draft the initial charter (see worked example, then submit a pull request with document referencing the roles and charter, updating the list of current SIGs below.
 
+More details regarding SIG processes can be seen on [this link](https://github.com/cdfoundation/toc/blob/master/GROUPS.md#sigs).
+
 ## Current SIGS
 
 * [Security](https://github.com/cdfoundation/sig-security)
 * [MLOps](https://github.com/cdfoundation/sig-mlops)
-* [Interoperability](https://github.com/cdfoundation/sig-Interoperability)
+* [Interoperability](https://github.com/cdfoundation/sig-interoperability)

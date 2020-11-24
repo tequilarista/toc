@@ -1,6 +1,6 @@
 ## I. Overview
 
-This governance policy describes how an open source project can formally join the foundation via the [Project Lifecycle Process](). It describes the [Stages]() a project may be admitted under and what the criteria and expectations are for a given stage, as well as the acceptance criteria for a project to move from one stage to another. It also describes the [Annual Review Process]() through which those changes will be evaluated and made. 
+This governance policy describes how an open source project can formally join the foundation via the Project Lifecycle Process defined in this document. It describes the Stages a project may be admitted under and what the criteria and expectations are for a given stage, as well as the acceptance criteria for a project to move from one stage to another. It also describes the Annual Review Process through which those changes will be evaluated and made. 
 
 Project progression - movement from one stage to another - allows projects to participate at the level that is most appropriate for them given where they are in their lifecycle. Regardless of stage, all projects benefit from a deepened alignment with existing projects, and access to mentorship, support, and foundation resources.
 
@@ -109,7 +109,8 @@ To graduate from Incubating status, a project must meet the Incubation stage cri
  * Explicitly define a project governance and committer process. This is preferably laid out in a GOVERNANCE.md file and references a CONTRIBUTING.md and OWNERS.md file showing the current and emeritus committers.
  * Have a public list of project adopters for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
  * Other metrics as defined by the applying Project during the application process in cooperation with the TOC.
- * Receive a 2/3 supermajority vote from the TOC to move to Graduated stage. 
+ * Have achieved and maintained a [Core Infrastructure Initiative Best Practices Badge](https://bestpractices.coreinfrastructure.org/).
+ * Receive a 2/3 supermajority vote from the TOC to move to Graduated stage.
  
 ### Emeritus Stage (Archive)
 
